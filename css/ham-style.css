@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+.bg-trang-70{ background-color: rgba(255,255,255,0.5)}
+#hero
+{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url("../images/bg-chan-hero.png");
+	background-repeat: no-repeat;
+	background-position: left bottom -2px;
+	width: 100%
+	
+}
+#ingredient-bgr h1, #ingredient-bgr h6, #ingredient-bgr p
+{
+	
+	Color: #fff
+}
+
+
+.wel
+{
+	background-image: url("../images/bg-welcome.png"), url("../images/a-xinchao.png"), url("../images/bg-banh.png");
+	background-repeat: no-repeat, no-repeat,  no-repeat;
+	background-position: left center, 90% center, center top;
+}
+
+.wel-4
+{
+	background-image: url( "../images/delivery_image-min 1.png"), url( "../images/delivery_bike-min 1.png"), url( "../images/delivery_bg 1.jpg");
+	background-repeat: no-repeat, no-repeat,  no-repeat;
+	background-position: right center, center bottom 80px, 90% center;
+}
+
+.ve-chung-toi
+{
+	background-image: url( "../images/delivery_bg 1.jpg");
+	background-repeat:  no-repeat;
+	background-position:center;
+	height: 100%;
+	width: auto
+}
+.btn-danger-1:focus, .btn-danger-1.focus {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+  box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+}  
+
+
+.ship-bgr
+{
+	
+	background-image: url( "../images/delivery_image-min 1.png"), url( "../images/delivery_bg 1.jpg");
+	background-repeat: no-repeat, no-repeat;
+	background-position: right center, center;
+	max-width: 1200px;
+	
+}
+
+hr2 {
+  display: block;
+  border-style:solid;
+  border-width: 1px;
+  border-color: red
+}
+
+
+.oanhgia{
+	background-image: url("../images/Rectangle 1.png"),url( "../images/testimonial_pattern-min 1.png");
+	background-repeat: no-repeat,no-repeat,no-repeat;
+	background-position: left bottom , 25% 40%,center bottom;
+	background-size:450px 20px 200px;
+	padding-bottom: 40px;
+	padding-top: 40px		
+}
+
+@media (max-width:991px){
+}
+
+.danhgia
+{
+    background-image: url("../images/testimonial_pattern-min 1.png"), url( "../images/Rectangle 1.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center left 150px,left bottom;
+	height: 300px; 
+
+}
+
+.ve-chung-toi-2
+{
+	background-image: url( "../images/Group 36.png");
+	background-repeat:  no-repeat;
+	background-position: center;
+	height: 100%;
+
+}
+
+
+.wel-2
+{
+	background-image:  url("../images/ingredient_bg-1 1.jpg"); height: 100%;
+	background-repeat:  no-repeat;
+	background-position: left top;
+	
+}
+
+#menu2
+{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url("../images/bg-chan-hero.png"), url(  "../images/menu_pattern3-min 2.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center bottom, center bottom;
+}
+
+
+.wel-3
+{
+	background-image:  url( "../images/menu_pattern3-min 2.png");
+	background-repeat:  no-repeat;
+	background-position: left center, 90% center, center top;
+	
+}
+@media (max-width:900px){
+	.wel,.danhgia
+{
+	background-image: url("../images/bg-welcome.png"), url("../images/a-xinchao.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: left center, right center, center top;
+	background-size: 20%, 50%;
+	background-color: rgba(255,255,255,0.5)
+	
+}
+}
+@media (max-width:1200px){
+	.wel
+{
+	background-image: url("../images/bg-welcome.png"), url("../images/a-xinchao.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: left center, right center;
+	background-size: 20%, 50%
+	
+}
+	
+	.tp > div > div > div > div {
+  margin-bottom: 31px;
+}
+
+@media (min-width: 1200px) {
+  .ingredient-bgr {
+    background: url( "../images/a92d148793ce2ce871ac31ef721ca66333c3bf82.png") center / contain repeat-x !important;
+  }
+}	
+	
+.card-2 {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color:rgba(255,236,205,1.00);
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}	
+	
+
+	
+	
+}
+#carouselExampleIndicators1{ overflow: hidden; width: 100%}
+#combo .card
+{ 
+	transition:all 1s;
+	background-color: var(--white);
+	border: 1.5px dotted rgba(0,0,0,0.2);
+	border-radius: 	30px
+	
+}
+#combo .card h2{ color: var(--secondary)}
+#combo .card:hover
+{
+	background-color: var(--secondary);
+	background-image: url("../images/menu_grunge 1.png");
+	background-repeat: no-repeat;
+	background-position: center -20px;
+	Border: none;
+	color: #fff
+}
+#combo .card:hover >h3,
+#combo .card:hover >h2
+{ color: #fff}
+
+
+#footer
+{
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-image:url( "../images/footer_bg 1.png"), url( "../images/ingredient_bg-1 2.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center bottom, center top;
+}

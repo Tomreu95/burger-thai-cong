@@ -1,0 +1,10 @@
+.tp > div > div > div > div {
+  margin-bottom: 31px;
+}
+
+@media (min-width: 1200px) {
+  .ingredient-bgr {
+    background: url("../../assets/img/a92d148793ce2ce871ac31ef721ca66333c3bf82.png") center / contain repeat-x !important;
+  }
+}
+
